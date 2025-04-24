@@ -8,6 +8,9 @@ This project implements a sector-based reinforcement learning framework for auto
 
 This project develops a novel approach for autonomous drone navigation in complex urban settings by combining sector-based environment division with reinforcement learning. The primary goal is to enable a drone to navigate efficiently through dense urban environments while avoiding obstacles and optimizing paths. The system leverages Unity's ML-Agents framework to train a drone agent using PPO, with the environment divided into interconnected sectors to reduce state space complexity and enhance scalability. The intended audience includes researchers, developers, and enthusiasts in autonomous UAV systems, reinforcement learning, and urban navigation.
 
+[![Watch the video](./Results/Path.png)](https://youtu.be/Rlizt6l1Gu4)
+
+
 - Demo Video: `./Demo.mp4` or [Watch Demo](https://youtu.be/your-video-id)
 - R&D Document: `./RND.docx`
 - Knowledge Transfer Document: `./KnowledgeTransfer.docx`
@@ -70,7 +73,7 @@ This project develops a novel approach for autonomous drone navigation in comple
 ## Project Structure Overview
 
 ```
-Unity-ML-Drone/                     # Root directory
+Unity-ML-Drone/                # Root directory
 ├── Assets/                    # Core Unity assets
 │   ├── Scenes/                # .unity scene files
 │   ├── Scripts/               # C# scripts
